@@ -1,0 +1,59 @@
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\Final Project.dll.config
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\Final Project.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\Final Project.pdb
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\Final Project.xml
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\csc.exe
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\csc.exe.config
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\csc.rsp
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\csi.exe
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\csi.exe.config
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\csi.rsp
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\System.AppContext.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\System.Console.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\System.IO.Compression.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\System.IO.Pipes.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\System.Security.Claims.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\System.ValueTuple.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\System.Xml.XPath.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\vbc.exe
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\vbc.exe.config
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\vbc.rsp
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\VBCSCompiler.exe
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\obj\Debug\Final Project.vbprojAssemblyReference.cache
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\obj\Debug\Final_Project.Resources.resources
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\obj\Debug\Final Project.vbproj.GenerateResource.cache
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\obj\Debug\Final Project.vbproj.CopyComplete
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\obj\Debug\Final Project.dll
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\obj\Debug\Final Project.xml
+C:\Users\HLTVProxy\Desktop\Final Project\Final Project\Final Project\obj\Debug\Final Project.pdb

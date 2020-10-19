@@ -1,0 +1,306 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Music Go</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+
+
+
+        .container {
+            margin-bottom: 10px;
+        }
+
+
+        .carousel .carousel-item img {
+            max-width: 1600px;
+            max-height: 650px;
+            min-width: 400px;
+            min-height: 300px;
+            object-fit: fill;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="/home.html"><img class="logo_main" src="img/logo2.png" style="width:100px;" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon">
+
+            </span>
+        </button>
+        <div class="collapse navbar-collapse " id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/find.html">找音樂</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/buy.html">買音樂</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/cooperation.html">合作</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/donate.html">贊助</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+
+    <div class="container embed-responsive-4by3">
+        <div id="demo" class="carousel slide" data-ride="carousel" style="display:flex;align-items:center;">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators ">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner" style="width:960px; height:540px;">
+                <div class="carousel-item active">
+                    <img src="img/cover1.jpg" alt="Cover1">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/cover2.jpg" alt="Cover2">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="container mt-4">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#news">最新消息</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#update">更新紀錄</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#menu2"></a>
+            </li>
+        </ul>
+
+
+
+
+        <!-- Tab panes -->
+        <div class="tab-content mt-4">
+            <div class="tab-pane container active" id="news">
+                <div id="accordion">
+
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#collapse1">
+                                [2020/1/5]暫不開放使用者註冊
+                            </a>
+                        </div>
+                        <div id="collapse1" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                別傻了，後端怎麼可能在一個禮拜做完，當然不能註冊啦
+                                <p class="text-right">站長</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed card-link" data-toggle="collapse" href="#collapse2">
+                                [2020/1/5]贊助者方案正式開跑
+                            </a>
+                        </div>
+                        <div id="collapse2" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                歡迎小額贊助本網站，讓網站能夠發展下去
+                                <p class="text-right">站長</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed card-link" data-toggle="collapse" href="#collapse3">
+                                [2020/1/5]平台開放測試
+                            </a>
+                        </div>
+                        <div id="collapse3" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                即日起(2020/1/5)，「Music GO 音樂走」開放封閉測試和開發，預計於2025年正式上線，敬請期待！
+                                <p class="text-right">站長</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="tab-pane container fade" id="update">
+                <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#collapse3">
+                            [2020/1/5]1.0.1 Alpha測試
+                        </a>
+                    </div>
+                    <div id="collapse3" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            更新內容如下:
+                            <p>無中生有</p>
+                            <p class="text-right">站長</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="tab-pane container fade" id="menu2">
+                ...
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
+
+<!-- Footer -->
+<footer class="bg-dark text-light">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+
+                <!-- Content -->
+                <h5 class="font-weight-bold text-uppercase mb-4">Music GO 音樂走</h5>
+                <p>「Music GO 音樂走」，致力於發展台灣嘻哈音樂買賣及合作媒合平台，主要負責嘻哈音樂買賣/上架/合作/媒合等工作。</p>
+                <p class="text-muted">目前平台正處於開發階段，預計於2025年正式上線，敬請期待！</p>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                <!-- Links -->
+                <h5 class="font-weight-bold text-uppercase mb-4">關於</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <p>
+                            <a href="#!">服務項目</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="#!">關於我們</a>
+                        </p>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                <!-- Contact details -->
+                <h5 class="font-weight-bold text-uppercase mb-4">聯絡我們</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <p>
+                            地址:雲林縣斗六市大學路三段123號
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            信箱:mail@musicgo.com.tw
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            市話:(+886)23456789
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            手機:(+886)912345678
+                        </p>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+
+                <!-- Social buttons -->
+                <h5 class="font-weight-bold text-uppercase mb-4">關注我們</h5>
+
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/ythiphop/" target="_blank">
+                    <img src="img/facebook.png" />
+                </a>
+                <div style="margin-top:10px;"></div>
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/ythh_hiphop640/" target="_blank">
+                    <img src="img/instagram.png" />
+                </a>
+                <div style="margin-top:10px;"></div>
+                <!-- Youtube -->
+                <a href="https://www.youtube.com/channel/UCUnfI06wVowNi4zhE7xCPVQ" target="_blank">
+                    <img src="img/youtube.png" />
+                </a>
+                <div style="margin-top:10px;"></div>
+
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+    <!-- Copyright -->
+    <div class="text-center bg-dark text-muted">
+        © 2020 Copyright:
+        <a href="/home.html">Music GO Studio(Taiwan)</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->

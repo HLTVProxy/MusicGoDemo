@@ -1,0 +1,350 @@
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>訂購資訊</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#btn").click(function () {
+                //提交
+                if ($("#name").val() == "") {
+                    alert("你尚未填寫姓名");
+                    eval("document.form1['name'].focus()");
+                } else if ($("#gender").val() == "") {
+                    alert("你尚未填寫性別");
+                    eval("document.form1['gender'].focus()");
+                } else if ($("#add").val() == "") {
+                    alert("你尚未填寫地址");
+                    eval("document.form1['add'].focus()");
+                } else if ($("#tel").val() == "") {
+                    alert("你尚未填寫電話");
+                    eval("document.form1['tel'].focus()");
+                } else if ($("#buyaccount").val() == "") {
+                    alert("你尚未填寫銀行帳戶");
+                    eval("document.form1['buyaccount'].focus()");
+                } else if ($("#buydays").val() == "") {
+                    alert("你尚未選擇方案");
+                    eval("document.form1['buydays'].focus()");
+                } else {
+                     
+                    //window.open('3.html', '_self')
+                    var x = document.getElementById("name").value;
+                    document.getElementById("nname").innerHTML = x;
+                    var y = $("input[name='gender']:checked").val();
+                    document.getElementById("ggender").innerHTML = y;
+                    var z = document.getElementById("add").value;
+                    document.getElementById("aadd").innerHTML = z;
+                    var a = document.getElementById("tel").value;
+                    document.getElementById("ttel").innerHTML = a;
+                    var b = document.getElementById("buyaccount").value;
+                    document.getElementById("bbuy").innerHTML = b;
+                    var c = $("input[name='buydays']:checked").val();
+                    document.getElementById("bbbuy").innerHTML = c;
+                    var d = document.getElementById("em").value;
+                    document.getElementById("eem").innerHTML = d;
+                    //document.form1.submit();
+                    alert("請至網頁下方確定訂單內容");
+
+
+                }
+            });
+            $("#bbtn").click(function () {
+                //提交
+                if ($("#name").val() == "") {
+                    alert("你尚未填寫姓名");
+                    eval("document.form1['name'].focus()");
+                } else if ($("#gender").val() == "") {
+                    alert("你尚未填寫性別");
+                    eval("document.form1['gender'].focus()");
+                } else if ($("#add").val() == "") {
+                    alert("你尚未填寫地址");
+                    eval("document.form1['add'].focus()");
+                } else if ($("#tel").val() == "") {
+                    alert("你尚未填寫電話");
+                    eval("document.form1['tel'].focus()");
+                } else if ($("#buyaccount").val() == "") {
+                    alert("你尚未填寫銀行帳戶");
+                    eval("document.form1['buyaccount'].focus()");
+                } else if ($("#buydays").val() == "") {
+                    alert("你尚未選擇方案");
+                    eval("document.form1['buydays'].focus()");
+                } else {
+                    window.open('order_done.html', '_self')
+                }
+            });
+        });
+
+        function fnComfirm(){
+        }
+    </script>
+</head>
+<body bgcolor="#DDDDDD">
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <div class="title" style="background-color:#000000;padding:10px;">
+        <p>
+            <font face="Comic Sans MS,微軟正黑體" color="#888888" align="right">
+                Music GO 音樂走 好音樂找Music GO
+            </font>
+        </p>
+    </div>
+    <p>
+        <font size="4" align="right">
+            輸入訂購人資訊
+        </font>
+        <font color="#888888">
+            > 確認資訊 > 完成訂單
+        </font>
+    </p>
+    <div id="forrm" class="forrm" style="background-color:#FFFFFF;">
+        <div class="orderrrrrrrr" style="background-color:#DDDDDD;letter-spacing:10px;border-width:10px;border-style:dashed;border-color:#666666;padding:5px;">
+            <h1 class="order" align="middle">
+                <font face="微軟正黑體" size="7" color="	#000000">
+                    訂購人資料填寫
+                </font>
+            </h1>
+        </div>
+        <form method="get" id="form1" name="form1">
+
+            <div class="orderrrrrrrr" style="padding:50px;display:block;">
+                <p>
+                    <h1 class="img" align="middle">
+                        <img src="img/buyy.png" />
+                    </h1>
+                </p>
+                <div style="width: 98%;border-bottom: 2px solid #90c31f;overflow: hidden;margin-left: auto;margin-right: auto;margin-bottom: 5px;padding-top: 20px;">
+                    <h3 style="cursor: default;background-color: #90c31f; border-right: 1px solid #90c31f;display: inline;padding: 5px 15px 3px 15px;float: left;border-radius: 4px 4px 0px 0px;border-top: 1px solid #90c31f;border-left: 1px solid #90c31f;min-width: 110px;text-align: center;position: relative;margin: 0">
+                        訂購人資訊
+                    </h3>
+                </div>
+                <table style="margin-left: auto;margin-right: auto;margin-bottom: 15px;text-align: left;width: 98%;background: #fff;box-shadow: 0px 1px 2px #a4a4a4;-webkit-border-radius: 5px;border-radius: 4px;
+                       border: 1px solid #e6e6e6; margin: 0;padding: 0;">
+                    <tbody>
+                        <tr><td align="center"><label><font size="5">訂購人姓名:</font></label></td><td> <input type="text" style="font-size:30px" name="name" id="name" maxlength="50" /></td><td></td></tr>
+                        <tr>
+                            <td align="center">
+                                <label><font size="5">訂購人性別:</font></label>
+                            </td>
+                            <td>
+                                <h3>
+                                    <input type="radio" style="width: 100px;font-size:50px;" name="gender" id="gender" value="男" checked="checked" />男
+                                    <input type="radio" style="width: 100px;font-size:50px;" name="gender" id="gender" value="女" />女
+                                </h3>
+                            </td>
+                        </tr>
+                        <tr><td align="center"><label><font size="5">聯絡地址:</font></label></td><td> <input type="text" style="font-size:30px" name="add" id="add" maxlength="50" /></td><td></td></tr>
+                        <tr>
+                            <td align="center"><label><font size="5">Email</font></label></td>
+                            <td><input type="text" style="font-size:30px" name="email" id="em" maxlength="50" /></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td align="center"><label> <font size="5">連絡電話<sub>(手機or市話)</sub></font></label></td>
+                            <td colspan="2"><input type="text" style="font-size:30px" name="tel" id="tel" maxlength="50" /></td>
+                            <td></td>
+                        </tr>
+                        <tr><td align="center"><label><font size="5">銀行帳戶<sub>(付款方式僅限匯款)</sub></font></label></td><td colspan="2"><input type="text" style="font-size:30px" name="buyaccount" id="buyaccount" maxlength="50" /></td></tr>
+                    </tbody>
+                </table>
+                <div style="width: 98%;border-bottom: 2px solid #90c31f;overflow: hidden;margin-left: auto;margin-right: auto;margin-bottom: 5px;padding-top: 20px;">
+                    <h3 style="cursor: default;background-color: #90c31f; border-right: 1px solid #90c31f;display: inline;padding: 5px 15px 3px 15px;float: left;border-radius: 4px 4px 0px 0px;border-top: 1px solid #90c31f;border-left: 1px solid #90c31f;min-width: 110px;text-align: center;position: relative;margin: 0">
+                        方案選擇
+                    </h3>
+                    <br>
+                </div>
+                <p></p>
+                <p style="text-align: center;border-style:double;">
+                    <span style="font-size: 24px;">
+                        買越高越好用｜Beat訂購方案
+                    </span>
+                    <small>
+                    </small>
+                </p>
+                <table class="table r-table ratetable" style="line-height:70px;" border=1>
+                    <tbody>
+                        <tr>
+                            <th class="title-col" style="vertical-align: middle;background-color:antiquewhite" colspan="2">方案選項</th>
+                            <th class="title-col" style="background-color:aquamarine;" width="25%"><strong>Basic</strong></th>
+                            <th class="title-col" style="background-color:burlywood;" width="27%"><strong>Standard</strong></th>
+                            <th class="title-col" style="background-color:cornflowerblue;" width="27%"><strong>Premium</strong></th>
+                        </tr>
+                        <tr>
+                            <td class="bg-white" rowspan="1" colspan="2">價錢</td>
+                            <td colspan="1" class="text-center">NTD 950</td>
+                            <td colspan="1" class="text-center">NTD 1900</td>
+                            <td colspan="1" class="text-center">NTD 6500</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-white" rowspan="1" colspan="2">內含</td>
+                            <td class="bg-white" colspan="1">.mp3檔</td>
+                            <td colspan="1">.mp3檔 & .wav檔</td>
+                            <td colspan="1"><strong><span style="font-size: 16px;">
+                                .mp3檔 + .wav檔 + 完整分軌檔
+                                <p>Premium方案專屬優惠-訂購時可獲得官網
+                                <a href="../img/card.png" target="_blank" style="color:darkviolet" width="300" height="225" title="點選查看獨家卡片">獨家小卡片☺</a>
+                                </p>
+
+                                
+                                 </span></strong></td>
+                        </tr>
+                        <tr>
+                            <td class="bg-white" style="vertical-align: middle;" rowspan="2" colspan="2">
+                                可使用範圍
+                            </td>
+                        <tr>
+                            <td class="bg-white" style="vertical-align: middle;" colspan="1">
+                                <ul>
+                                    <li>可用於錄音</li>
+                                    <li>最多發行2000份實體作品</li>
+                                    <li>*在串流平台上，最多只能有50000個播放/瀏覽次數</li>
+                                    <li>可拍攝一支音樂錄影帶</li>
+                                    <li ><p style="color:red; font-weight:bold;">不可用於商業表演上</p></li>
+                                    <li ><p style="color:red; font-weight:bold;">不可在廣播上進行播放</p></li>
+                                </ul>
+                                <p>*若超過播放/瀏覽次數，需重新購買或來信重新洽談合約</p>
+                            </td>
+                            <td class="bg-white" style="vertical-align: middle;" colspan="1">
+                                <ul>
+                                    <li>可用於錄音</li>
+                                    <li>最多發行2000份實體作品</li>
+                                    <li>*在串流平台上，最多只能有100000個播放/瀏覽次數</li>
+                                    <li>可拍攝一支音樂錄影帶</li>
+                                    <li ><p style="color:red; font-weight:bold;">不可用於商業表演上</p></li>
+                                    <li ><p style="color:red; font-weight:bold;">不可在廣播上進行播放</p></li>
+                                </ul>
+                                <p>*若超過播放/瀏覽次數，需重新購買或來信重新洽談合約</p>
+                            </td>
+                            <td colspan="3">
+                                <ul>
+                                    <li>可用於錄音</li>
+                                    <li>最多發行10000份實體作品</li>
+                                    <li>*在串流平台上，最多只能有500000個播放/瀏覽次數</li>
+                                    <li>可拍攝一支音樂錄影帶</li>
+                                    <li><p style="font-weight:bold;">可用於商業表演上</p></li>
+                                    <li><p style="color:red; font-weight:bold;">只在在一家廣播電台上進行播放</p></li>
+                                </ul>
+                                <p>*若超過播放/瀏覽次數，需重新購買或來信重新洽談合約</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bg-white" colspan="2" style="background-color:deeppink">Music GO 獨家優惠</td>
+                            <td>NTD$150優惠卷</td>
+                            <td>與KKBOX合作，可免費使用90天(洽談中)</td>
+                            <td>
+                                <span style="color: #ff0000;">
+                                    <strong><span style="text-decoration: underline;">買一送一優惠券(期間限定)</span></strong><br>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="bg-white">其他優惠</td>
+                            <td colspan="3" style="text-align: center;">
+                                努力爭取中......<br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bg-white" colspan="2" style="        text-align: center;">
+                                注意事項
+                            </td>
+                            <td colspan="3" style="text-align: center;">
+                                <span style="font-size: 18px;"><strong><span style="color: #00b050;">精彩音樂 讓你做到到爛</span></strong></span><br>
+                                (1)請尊重智慧財產權，未經授權請勿使用，Music GO Studio和創作人將保有法律追訴權。
+                                <br>
+                                (2)若不清楚詳細的條款，請來信:mail@musicgo.com.tw。
+                                <br>
+                                (3)若有特殊需求，請來信給我們，我們將會提供您個製化服務。
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bg-white" colspan="2" style="background-color:lightskyblue">方案選擇</td>
+                            <td style="background-color:aquamarine;" class="text-center"> <h3><input type="radio" name="buydays" id="buydays" value="Basic" checked="checked"/>Basic</h3></td>
+                            <td style="background-color:burlywood;" class="text-center"> <h3>&nbsp;<input type="radio" name="buydays" id="buydays" value="Standard" />Standard</h3></td>
+                            <td style="background-color:cornflowerblue;" class="text-center"> <h3><input type="radio" name="buydays" id="buydays" value="Premium" />Premium </h3></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+
+                <p>
+                    <input type="submit" value="輸入完成，下一步(點擊後請往下確認資訊)" style="width:400px;height:40px;font-size:20px;" id="btn" onclick="return false">
+                </p>
+            </div>
+
+        </form>
+    </div>
+    <p>
+        <font color="#888888">
+            輸入訂購人資訊 >
+        </font>
+        <font size="4" align="right">
+            確認資訊
+        </font>
+        <font color="#888888">
+            > 完成訂單
+        </font>
+    </p>
+    <div id="forrmm" class="forrm" name="forrmm" style="background-color:#FFFFFF;">
+        <div class="orderrrrrrrr" style="background-color:#DDDDDD;letter-spacing:10px;border-width:10px;border-style:dashed;border-color:#666666;padding:5px;">
+            <h1 class="order" align="middle">
+                <font face="微軟正黑體" size="7" color="	#000000">
+                    訂購資料確認
+                </font>
+            </h1>
+        </div>
+        <p>
+            <h1 class="img" align="middle">
+                <img src="img/buyy2.png" width="800"/>
+            </h1>
+        </p>
+        <form>
+            <div style="width: 98%;border-bottom: 2px solid #90c31f;overflow: hidden;margin-left: auto;margin-right: auto;margin-bottom: 5px;padding-top: 20px;">
+                <h3 style="cursor: default;background-color: #90c31f; border-right: 1px solid #90c31f;display: inline;padding: 5px 15px 3px 15px;float: left;border-radius: 4px 4px 0px 0px;border-top: 1px solid #90c31f;
+                        border-left: 1px solid #90c31f;min-width: 110px;text-align: center;position: relative;margin: 0">
+                    訂購資訊
+                </h3>
+            </div>
+            <div class="orderrrrrrrr" style="padding:50px;display:block;">
+                <div style="width: 98%;border-bottom: 2px solid #90c31f;overflow: hidden;margin-left: auto;margin-right: auto;margin-bottom: 5px;padding-top: 20px;">
+                    <h3 style="cursor: default;background-color: #90c31f; border-right: 1px solid #90c31f;display: inline;padding: 5px 15px 3px 15px;float: left;border-radius: 4px 4px 0px 0px;border-top: 1px solid #90c31f;
+                        border-left: 1px solid #90c31f;min-width: 110px;text-align: center;position: relative;margin: 0">
+                        訂購人資料
+                    </h3>
+                </div>
+                <table style="margin-left: auto;margin-right: auto;margin-bottom: 15px;text-align: left;width: 98%;background: #fff;box-shadow: 0px 1px 2px #a4a4a4;-webkit-border-radius: 5px;border-radius: 4px;
+                       border: 1px solid #e6e6e6; margin: 0;padding: 0;">
+                    <tbody>
+                        <tr><td><label>訂購人姓名</label></td><td id="nname"></td><td></td></tr>
+                        <tr>
+                            <td><label>訂購人性別</label></td>
+                            <td colspan="2" id="ggender" name="ggender"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><label>聯絡地址</label></td>
+                            <td colspan="2" id="aadd"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><label>Email</label></td>
+                            <td id="eem"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><label>連絡電話</label></td>
+                            <td colspan="2" id="ttel"></td>
+                            <td></td>
+                        </tr>
+                        
+                        <tr><td><label>銀行帳戶</label></td><td colspan="2" id="bbuy"></td></tr>
+                        <tr><td><label>方案類型</label></td><td id="bbbuy"></td><td></td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div align="center">
+                <input type="button" value="確認無誤，送出" style="width:250px;height:40px;font-size:20px;" id="bbtn" onclick="return false">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
